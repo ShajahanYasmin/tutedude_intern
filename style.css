@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin:0;padding:0;
+    box-sizing: border-box;
+}
+body{
+    color:darkmagenta;
+    background-color:#f1d9f3;
+    font-family: 'Poppins',sans-serif;
+
+}
+.nav{
+    
+background-color: white;
+border-bottom:5px solid lavender;
+width:100%;
+}
+
+.nav div{
+    padding-top:1.3rem;
+}
+ .btn{
+    border:2px solid darkmagenta;
+     height:1 rem;
+     border-radius:8%;
+     
+    
+ }
+ button{
+     margin:2px;
+ }
+ .nav ul{
+     list-style: none;
+    
+ }
+ .nav ul li{
+     display: inline-block;
+ }
+ .log{
+
+    font-weight: 700;
+ color: darkmagenta;
+ }
+ #click{
+     
+     display: none;
+ }
+ .menu-btn label{
+     color:blueviolet;
+     cursor: pointer;
+     font-size:22px;
+ display:none;
+ }
+ .sign{
+     color:white;
+     background-color: darkmagenta;
+     font-weight: 700;
+ }
+ .sign:hover{
+    color: darkmagenta;
+    background-color: white;
+ }
+ .log:hover{
+     background-color:darkmagenta;
+ }
+ #card1 p{
+     background-color: white;
+ }
+ .fw{
+     font-weight: 800;
+ }
+ .fs{
+     font-size:3rem;
+     margin:.8rem;
+ }
+ .card1{
+     min-height: 120px;
+ }
+ .fs-s{
+     font-size:1.6rem;
+     margin:1rem;
+ }
+ .timeline{
+     position: relative;
+
+ }
+ .timeline-box{
+     position: relative;
+ }
+ .timeline-divider{
+     position:absolute;
+     height:14rem;
+     border:1px dashed #e99cf0;
+     overflow: hidden;
+     left:5%;
+     top:-2%;
+ }
+ #card{
+     background-color:rgb(248, 227, 243);
+     box-shadow: 4px;
+ }
+ .know{
+     margin:auto;
+ }
+ .card-inside{
+     min-height: 100vh;;
+ }
+ .gift{
+     background-image: linear-gradient(violet,darkmagenta);
+     min-height:auto;
+ }
+ .card2{
+     background-color: rgb(104, 3, 104);
+ }
+ #card3{
+     background-color: rgb(247, 229, 238);
+    
+ }
+ .rad{
+     border-radius: 8px;
+ }
+ .grad{
+     background-image: linear-gradient(to bottom right,white,violet);
+ }
+ #card4{
+     background-color: white;
+     min-height: 50vh;
+ }
+ #id .card{
+     display:flex;
+     justify-content: center;
+     align-items: flex-start;
+     
+ }
+.icon{
+    position:relative; width:13%;
+   height: 22% ;
+left:-12%;
+   background: darkmagenta;
+   border-radius: 0 50% 50% 0; 
+
+}
+footer{
+    background-color: black;
+    color:white;
+}
+
+ @media (max-width: 952px) {  
+ .nav ul li{
+     display: block;
+     
+
+ }
+ 
+ .menu-btn label{
+     display: block;
+ }
+ #click:checked +.menu-btn{
+     display: block;
+     color:black;
+ }
+ .nav ul{
+     
+     top:15%;
+
+    
+     height:100vh;
+    left: 100%;
+     background:rgb(187, 199, 206);
+     text-align: center;
+    
+     
+ }
+ 
+.menu-btn{
+    justify-content: end;
+}
+
+}
+
